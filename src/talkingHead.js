@@ -9,6 +9,13 @@ class Song {
     return "title is: " + this.title + " by " + this.artist;
   }
 }
+let davidByrne = new Song("Talking Heads", "Burning Down the House");
+console.log(davidByrne.getTitle());
+
+let stevie = new Song("Stevie Wonder", "Signed, Sealed, Delivered (I'm Yours)");
+console.log(stevie.getTitle());
+
+export {Song};
 
 //Exercise:
 
